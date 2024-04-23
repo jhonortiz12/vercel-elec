@@ -20,7 +20,7 @@ function PortafolioIngenieroSoftware() {
             <section className="experience">
                 <h2>Experiencia Laboral</h2>
                 <article>
-                    <h3>Ingeniero de Software | Empresa XYZ | [Fechas]</h3>
+                    <h3>  <center>Ingeniero de Software | Empresa XYZ | [Fechas</center>I</h3>
                     <ul>
                         <li>Desarrollo de aplicaciones web utilizando tecnologías modernas como React.js y Node.js.</li>
                         <li>Implementación de funcionalidades clave para mejorar la usabilidad y la experiencia del usuario.</li>
