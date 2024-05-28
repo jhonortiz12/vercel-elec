@@ -20,7 +20,7 @@ const Header = () => {
       <nav className='flex justify-between items-center max-w-6xl mx-auto px-2'>
         <div className='flex gap-4 items-center'>
           <div>
-            <CgCodeSlash size={40} /> {/* Ajusta el tamaño del ícono */}
+            <CgCodeSlash size={40} />
           </div>
         </div>
         <ul className='gap-10 md:flex hidden hover:*:text-primary *:duration-200'>
