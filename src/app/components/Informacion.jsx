@@ -8,7 +8,7 @@ const Informacion = () => {
             id='home'
             className='min-h-screen container grid place-items-center relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-heroLight before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-heroDark font-roboto' // Clase de Tailwind para la fuente Roboto
         >
-            <div className='flex flex-col lg:flex-row justify-around items-center text-stone-700'>
+            <div className='flex flex-col lg:flex-row justify-around items-center text-white'>
                 <div className="text-lift lg:w-1/3 md:w-fit px-4">
                     <h1 className="text-4xl mt-10 mb-10">holaaaaa</h1>
                     <p className="text-1xl">

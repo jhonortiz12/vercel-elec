@@ -5,7 +5,7 @@ import Header from './Header';
 import Informacion from './Informacion';
 import Habilidades from './Habilidades';
 import Testimonios from './Testimonios';
-import Contacto from './Contacto';
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <About />
       <Habilidades/>
       <Testimonios/>  
-      <Contacto/>   
+      
     </div>
   );
 }

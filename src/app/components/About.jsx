@@ -6,7 +6,10 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 
 // Importa tu imagen
-import perfil from '../../assets/imagenes/perfil.jpeg';
+import ucc from '../../assets/imagenes/ucc.jpeg';
+import proyecto2 from '../../assets/imagenes/proyecto2.jpeg';
+import calculadora1 from '../../assets/imagenes/calculadora1.jpg';
+
 
 const About = () => {
   return (
@@ -22,37 +25,49 @@ const About = () => {
           className="swiper-container-first"
         >
           <SwiperSlide>
-            <div className='flex justify-center'>
-              <div className='slide-content mx-2'>
-                <img src={perfil} alt='Slide 1.1' style={{ width: '300px', height: '300px' }} />
-                <h2>Slide 1.1</h2>
-                <p>Content for Slide 1.1</p>
+            <div >
+              <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
+                <div className="flex justify-center">
+                  <img src={ucc} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                </div>
+                <div>
+                  <h2 className="text-xl font-bold mb-4">página de odontología</h2>
+                  <p>Con un equipo de trabajo elaboramos una página web  a la facultan de odontología de la universidad cooperativa de Colombia sede pasto </p>
+                </div>
               </div>
-              
+            </div>
+          </SwiperSlide>
+
+
+
+
+          <SwiperSlide>
+            <div className='flex justify-center'>
+              <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
+                <div className="aspect-w-1 aspect-h-1 sm:aspect-w-10 sm:aspect-h-10">
+                  <img src={proyecto2} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                </div>
+                <div>
+                  <h2 className="text-xl font-bold mb-10">Aplicacion de toma de pedidos de un restaurante </h2>
+                  <p>Elabore una aplicación en la que se desplegaba un menú a un restaurante  </p>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='flex justify-center'>
-              <div className='slide-content mx-2'>
-                <img src={perfil} alt='Slide 2.1' style={{ width: '300px', height: '300px' }} />
-                <h2>Slide 2.1</h2>
-                <p>Content for Slide 2.1</p>
-              </div>
-              
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className='flex justify-center'>
-              
-                
-              <div className='slide-content mx-2'>
-                <img src={perfil} alt='Slide 3' style={{ width: '300px', height: '300px' }} />
-                <h2>Slide 3</h2>
-                <p>Content for Slide 3</p>
+              <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
+                <div className="aspect-w-1 aspect-h-1 sm:aspect-w-10 sm:aspect-h-10">
+                  <img src={calculadora1} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                </div>
+                <div>
+                  <h2 className="text-xl font-bold mb-10">página de odontología</h2>
+                  <p>Trabajé con la facultad de odontología en la UCC para crear una página web.</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
-          {/* Agrega más SwiperSlide según sea necesario */}
+          
         </Swiper>
       </div>
     </section>
