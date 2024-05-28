@@ -10,7 +10,7 @@ const Informacion = () => {
         >
             <div className='flex flex-col lg:flex-row justify-around items-center text-white'>
                 <div className="text-lift lg:w-1/3 md:w-fit px-4">
-                    <h1 className="text-4xl mt-10 mb-10">holaaaaa</h1>
+                    <h1 className="text-4xl mt-10 mb-10">Sobre mi </h1>
                     <p className="text-1xl">
                         ¡Hola! Soy un ingeniero de software apasionado. Mi enfoque se centra en la 
                         excelencia técnica, la eficiencia y la colaboración efectiva en equipos 

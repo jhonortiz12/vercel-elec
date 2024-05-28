@@ -7,9 +7,9 @@ import { faGithub, faWhatsapp, faLinkedin, faFacebook } from '@fortawesome/free-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const testimoniosData = [
-  { id: 1, imgSrc: perfil3, name: 'Nombre del Testimonio 1', description: 'Descripción del testimonio 1' },
-  { id: 2, imgSrc: perfil1, name: 'Nombre del Testimonio 2', description: 'Descripción del testimonio 2' },
-  { id: 3, imgSrc: perfil2, name: 'Nombre del Testimonio 3', description: 'Descripción del testimonio 3' }
+  { id: 1, imgSrc: perfil3, name: 'Carlos', description: '🦀' },
+  { id: 2, imgSrc: perfil1, name: 'Pedro', description: '🏠' },
+  { id: 3, imgSrc: perfil2, name: 'Juan', description: '🎃' }
 ];
 
 const Testimonios = () => {
@@ -41,16 +41,16 @@ const Testimonios = () => {
         <footer className='text-center text-white'>
           <h1 className="text-2xl mb-4">Contactame</h1> {/* Ajusta el tamaño del texto */}
           <div className="flex justify-center space-x-8"> {/* Ajusta el espaciado entre los iconos */}
-            <a href='https://github.com/tuusuario' target='_blank' rel='noopener noreferrer'>
+            <a href='https://github.com/jhonortiz12' target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faGithub} size='lg' /> {/* Ajusta el tamaño de los iconos */}
             </a>
-            <a href="https://wa.me/tuwhatsapplink" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.link/hdndbd" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} size="lg" />
             </a>
             <a href="https://www.linkedin.com/in/tuperfil" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
-            <a href="https://www.facebook.com/tupagina" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/jhonesteban.ortizpascuaza.5" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </a>
             <a href="mailto:tuemail@outlook.com" target="_blank" rel="noopener noreferrer">
