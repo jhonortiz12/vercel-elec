@@ -27,8 +27,8 @@ const About = () => {
           <SwiperSlide>
             <div >
               <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
-                <div className="flex justify-center">
-                  <img src={ucc} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                <div className="flex justify-center ">
+                  <img src={ucc} alt='ucc' style={{ width: '400px', height: '400px'  }} className='rounded-lg'  />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold mb-4">página de odontología</h2>
@@ -45,7 +45,7 @@ const About = () => {
             <div className='flex justify-center'>
               <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
                 <div className="aspect-w-1 aspect-h-1 sm:aspect-w-10 sm:aspect-h-10">
-                  <img src={proyecto2} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                  <img src={proyecto2} alt='ucc' style={{ width: '400px', height: '400px' }}  className='rounded-lg' />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold mb-10">Aplicacion de toma de pedidos de un restaurante </h2>
@@ -58,7 +58,7 @@ const About = () => {
             <div className='flex justify-center'>
               <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
                 <div className="aspect-w-1 aspect-h-1 sm:aspect-w-10 sm:aspect-h-10">
-                  <img src={calculadora1} alt='ucc' style={{ width: '400px', height: '400px' }} />
+                  <img src={calculadora1} alt='ucc' style={{ width: '400px', height: '400px' }}   className='rounded-lg'/>
                 </div>
                 <div>
                   <h2 className="text-xl font-bold mb-10">página de odontología</h2>

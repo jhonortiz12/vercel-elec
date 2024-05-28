@@ -9,7 +9,7 @@ import Testimonios from './Testimonios';
 
 function App() {
   return (
-    <div className='dark:text-gray-200 dark:bg-black'>
+    <div className='dark:text-gray-200  bg-neutral-950'>
       <Header />
       <Informacion />
       <About />
