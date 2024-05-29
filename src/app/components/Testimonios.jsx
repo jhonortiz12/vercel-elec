@@ -48,13 +48,10 @@ const Testimonios = () => {
             <a href="https://wa.link/hdndbd" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} size="lg" />
             </a>
-            <a href="https://www.linkedin.com/in/tuperfil" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
-            </a>
             <a href="https://www.facebook.com/jhonesteban.ortizpascuaza.5" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </a>
-            <a href="mailto:tuemail@outlook.com" target="_blank" rel="noopener noreferrer">
+            <a href="ortizpascuaza@gmail.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </a>
           </div>
