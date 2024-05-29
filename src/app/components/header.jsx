@@ -35,8 +35,7 @@ const Header = () => {
           </li>
           <li>
             <a href='#testimonos' className='hover:bg-gray-800 rounded-full px-5 py-2'>TESTIMONIOS</a>
-          </li>
-          
+          </li>         
         </ul>
         <div className='block md:hidden'>
           {toggled ? (
