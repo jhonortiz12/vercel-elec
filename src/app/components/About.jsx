@@ -13,7 +13,9 @@ import calculadora1 from '../../assets/imagenes/calculadora1.jpg';
 
 const About = () => {
   return (
-    <section id='proyectos' className='py-28 text-center mt-20'>
+    <section 
+    id='proyectos' 
+    className='py-28 text-center mt-20'>
       <h1 className='text-5xl mb-10'>PROYECTOS</h1>
       <div className="flex justify-center">
         <Swiper
