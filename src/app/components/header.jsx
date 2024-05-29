@@ -36,9 +36,7 @@ const Header = () => {
           <li>
             <a href='#testimonos' className='hover:bg-gray-800 rounded-full px-5 py-2'>TESTIMONIOS</a>
           </li>
-          <li className='theme-switch'>
-            <i className='fa-solid fa-circle-half-stroke cursor-pointer'></i>
-          </li>
+          
         </ul>
         <div className='block md:hidden'>
           {toggled ? (

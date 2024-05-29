@@ -31,13 +31,10 @@ const Header = () => {
             <a href='#about' className='hover:bg-gray-800 rounded-full px-5 py-2'>PROYECTOS</a>
           </li>
           <li>
-            <a href='#projects' className='hover:bg-gray-800 rounded-full px-5 py-2'> HABILIDADES</a>
+            <a href='#habilidades' className='hover:bg-gray-800 rounded-full px-5 py-2'>HABILIDADES</a>
           </li>
           <li>
             <a href='#testimonos' className='hover:bg-gray-800 rounded-full px-5 py-2'>TESTIMONIOS</a>
-          </li>
-          <li>
-            <a href='#contact' className='hover:bg-gray-800 rounded-full px-5 py-2'>CONTACTAME</a>
           </li>
           <li className='theme-switch'>
             <i className='fa-solid fa-circle-half-stroke cursor-pointer'></i>
