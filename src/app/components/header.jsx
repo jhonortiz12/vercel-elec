@@ -58,7 +58,7 @@ const Header = () => {
           </ul>
         </nav>
       )}
-    </header>
+  </header>
   );
 };
 
