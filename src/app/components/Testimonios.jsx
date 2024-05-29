@@ -1,15 +1,15 @@
 import React from 'react';
 import '@fontsource/roboto';
-import perfil3 from '../../assets/imagenes/perfil3.jpg';
-import perfil1 from '../../assets/imagenes/perfil1.jpg';
+import lina from '../../assets/imagenes/lina.jpeg';
+import luis from '../../assets/imagenes/luis.jpeg';
 import nataperfil2 from '../../assets/imagenes/nataperfil2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const testimoniosData = [
-  { id: 1, imgSrc: perfil3, name: 'Carlos', description: 'jhon tiene una visión clara para el futuro y está comprometido a seguir creciendo y evolucionando tanto a nivel personal como profesional. Sus objetivos incluyen, y estoy seguro(a) de que alcanzará grandes alturas en su carrera.' },
-  { id: 2, imgSrc: perfil1, name: 'Pedro', description: 'Es un placer para mí presentarles a jhon, un destacado profesional cuya dedicación y pasión por su trabajo son ejemplares. A lo largo de esta presentación, exploraremos los aspectos clave que hacen de jhon un activo invaluable para nuestro equipo y nuestra organización.' },
+  { id: 1, imgSrc: lina, name: 'Lina', description: 'jhon tiene una visión clara para el futuro y está comprometido a seguir creciendo y evolucionando tanto a nivel personal como profesional. Sus objetivos incluyen, y estoy seguro(a) de que alcanzará grandes alturas en su carrera.' },
+  { id: 2, imgSrc: luis, name: 'Luis', description: 'Es un placer para mí presentarles a jhon, un destacado profesional cuya dedicación y pasión por su trabajo son ejemplares. A lo largo de esta presentación, exploraremos los aspectos clave que hacen de jhon un activo invaluable para nuestro equipo y nuestra organización.' },
   { id: 3, imgSrc: nataperfil2, name: 'natalia', description: 'Jhon es una persona íntegra y responsable. Siempre está a la vanguardia de los nuevos cambios tecnológicos y, sobre todo, es un excelente compañero en el ámbito labora' }
 ];
 
