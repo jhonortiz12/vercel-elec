@@ -20,7 +20,7 @@ const Header = () => {
       <nav className='flex justify-between items-center max-w-6xl mx-auto px-2'>
         <div className='flex gap-4 items-center'>
           <div>
-            <CgCodeSlash size={40} />
+            <CgCodeSlash />
           </div>
         </div>
         <ul className='gap-10 md:flex hidden hover:*:text-primary *:duration-200'>
@@ -28,13 +28,16 @@ const Header = () => {
             <a href='#home' className='hover:bg-gray-800 rounded-full px-5 py-2'>INICIO</a>
           </li>
           <li>
-            <a href='#proyectos' className='hover:bg-gray-800 rounded-full px-5 py-2'>PROYECTOS</a>
+            <a href='#about' className='hover:bg-gray-800 rounded-full px-5 py-2'>PROYECTOS</a>
           </li>
           <li>
-            <a href='#habilidades' className='hover:bg-gray-800 rounded-full px-5 py-2'>HABILIDADES</a>
+            <a href='#projects' className='hover:bg-gray-800 rounded-full px-5 py-2'> HABILIDADES</a>
           </li>
           <li>
             <a href='#testimonos' className='hover:bg-gray-800 rounded-full px-5 py-2'>TESTIMONIOS</a>
+          </li>
+          <li>
+            <a href='#contact' className='hover:bg-gray-800 rounded-full px-5 py-2'>CONTACTAME</a>
           </li>
           <li className='theme-switch'>
             <i className='fa-solid fa-circle-half-stroke cursor-pointer'></i>
@@ -51,10 +54,10 @@ const Header = () => {
       {toggled && (
         <nav className='block md:hidden'>
           <ul className='flex flex-col items-start ml-10'>
-            <li><a href='#home' className='text-white text-xl cursor-pointer'>Inicio</a></li>
-            <li><a href='#proyectos' className='text-white text-xl cursor-pointer'>Proyectos</a></li>
-            <li><a href='#habilidades' className='text-white text-xl cursor-pointer'>Habilidades</a></li>
-            <li><a href='#testimonos' className='text-white text-xl cursor-pointer'>testimonios</a></li>
+            <li><a href='#home' className='text-white text-xl cursor-pointer'>INICIO</a></li>
+            <li><a href='#proyectos' className='text-white text-xl cursor-pointer'>PASATIEMPOS</a></li>
+            <li><a href='#habilidades' className='text-white text-xl cursor-pointer'>PROYECTOS</a></li>
+            <li><a href='#contactos' className='text-white text-xl cursor-pointer'>CONTACTAME</a></li>
           </ul>
         </nav>
       )}
