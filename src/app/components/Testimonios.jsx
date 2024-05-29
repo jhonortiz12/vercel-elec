@@ -1,15 +1,16 @@
 import React from 'react';
+import '@fontsource/roboto';
 import perfil3 from '../../assets/imagenes/perfil3.jpg';
 import perfil1 from '../../assets/imagenes/perfil1.jpg';
-import perfil2 from '../../assets/imagenes/perfil2.jpg';
+import nataperfil2 from '../../assets/imagenes/nataperfil2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const testimoniosData = [
-  { id: 1, imgSrc: perfil3, name: 'Carlos', description: '🦀' },
-  { id: 2, imgSrc: perfil1, name: 'Pedro', description: '🏠' },
-  { id: 3, imgSrc: perfil2, name: 'Juan', description: '🎃' }
+  { id: 1, imgSrc: perfil3, name: 'Carlos', description: 'jhon tiene una visión clara para el futuro y está comprometido a seguir creciendo y evolucionando tanto a nivel personal como profesional. Sus objetivos incluyen, y estoy seguro(a) de que alcanzará grandes alturas en su carrera.' },
+  { id: 2, imgSrc: perfil1, name: 'Pedro', description: 'Es un placer para mí presentarles a jhon, un destacado profesional cuya dedicación y pasión por su trabajo son ejemplares. A lo largo de esta presentación, exploraremos los aspectos clave que hacen de jhon un activo invaluable para nuestro equipo y nuestra organización.' },
+  { id: 3, imgSrc: nataperfil2, name: 'natalia', description: 'Jhon es una persona íntegra y responsable. Siempre está a la vanguardia de los nuevos cambios tecnológicos y, sobre todo, es un excelente compañero en el ámbito labora' }
 ];
 
 const Testimonios = () => {
@@ -18,8 +19,8 @@ const Testimonios = () => {
       id='testimonos'
       className='min-h-screen container grid place-items-center relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-heroLight before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-heroDark'
     >
-      <div className='text-center text-white'>
-        <h1 className="text-4xl mb-10">Testimonios</h1>
+      <div className='text-center text-white mb-10'>
+        <h1 className="text-4xl">Testimonios</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
         {testimoniosData.map(testimonio => (
@@ -39,10 +40,10 @@ const Testimonios = () => {
       </div>
       <div className='flex flex-col items-center justify-center w-full mt-10'>
         <footer className='text-center text-white'>
-          <h1 className="text-2xl mb-4">Contactame</h1> {/* Ajusta el tamaño del texto */}
-          <div className="flex justify-center space-x-8"> {/* Ajusta el espaciado entre los iconos */}
+          <h1 className="text-2xl mb-4">Contactame</h1>
+          <div className="flex justify-center space-x-8">
             <a href='https://github.com/jhonortiz12' target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faGithub} size='lg' /> {/* Ajusta el tamaño de los iconos */}
+              <FontAwesomeIcon icon={faGithub} size='lg' />
             </a>
             <a href="https://wa.link/hdndbd" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} size="lg" />

@@ -1,8 +1,10 @@
 import React from "react";
 import perfil from '../../assets/imagenes/perfil.jpeg';
-import '@fontsource/roboto'; // Importa la fuente Roboto
+import '@fontsource/roboto';
+
 
 const Informacion = () => {
+    
     return (
         <section
             id='home'

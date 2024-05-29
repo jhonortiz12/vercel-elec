@@ -1,4 +1,5 @@
 import React from 'react';
+import '@fontsource/roboto';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -63,8 +64,8 @@ const About = () => {
                   <img src={calculadora1} alt='ucc' style={{ width: '400px', height: '400px' }}   className='rounded-lg'/>
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold mb-10">página de odontología</h2>
-                  <p>Trabajé con la facultad de odontología en la UCC para crear una página web.</p>
+                  <h2 className="text-xl font-bold mb-10">Calculadora</h2>
+                  <p>Realize una calculadora que permitia realizar diferentes ecuaciones.</p>
                 </div>
               </div>
             </div>

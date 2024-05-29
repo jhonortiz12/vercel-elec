@@ -1,4 +1,5 @@
 import React from 'react';
+import '@fontsource/roboto';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJsSquare, faNodeJs, faReact, faPython, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode } from '@fortawesome/free-solid-svg-icons';
