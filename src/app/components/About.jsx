@@ -9,7 +9,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 // Importa tu imagen
 import ucc from '../../assets/imagenes/ucc.jpeg';
 import proyecto2 from '../../assets/imagenes/proyecto2.jpeg';
-import calculadora1 from '../../assets/imagenes/calculadora1.jpg';
+import api from '../assets/imagenes/api.jpeg';
 
 
 const About = () => {
@@ -61,11 +61,11 @@ const About = () => {
             <div className='flex justify-center'>
               <div className='slide-content mx-2 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
                 <div className="aspect-w-1 aspect-h-1 sm:aspect-w-10 sm:aspect-h-10">
-                  <img src={calculadora1} alt='ucc' style={{ width: '400px', height: '400px' }}   className='rounded-lg'/>
+                  <img src={api} alt='ucc' style={{ width: '400px', height: '400px' }}   className='rounded-lg'/>
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold mb-10">Calculadora</h2>
-                  <p>Realize una calculadora que permitia realizar diferentes ecuaciones.</p>
+                  <h2 className="text-xl font-bold mb-10">Api</h2>
+                  <p>elabore una api de un un restaurante </p>
                 </div>
               </div>
             </div>

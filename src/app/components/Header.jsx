@@ -1,4 +1,5 @@
 import React from 'react';
+import '@fontsource/roboto';
 import { useState } from 'react';
 import { CgCodeSlash } from 'react-icons/cg';
 import { AiOutlineClose } from 'react-icons/ai';
