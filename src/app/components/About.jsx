@@ -9,7 +9,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 // Importa tu imagen
 import ucc from '../../assets/imagenes/ucc.jpeg';
 import proyecto2 from '../../assets/imagenes/proyecto2.jpeg';
-import api from '../assets/imagenes/api.jpeg';
+import api from '../../assets/imagenes/api.jpeg';
 
 
 const About = () => {
